@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import React, { useContext } from "react";
 import Logo from "../../../public/assets/img/logo/logo.png";
@@ -88,8 +89,8 @@ const HeaderTwo = () => {
                     </nav>
                   </div>
                   <div className="header__btn header__btn-2 ml-50 d-none d-sm-block">
-                    <Link href="/sign-up" className="e-btn">
-                      Sign up
+                    <Link href="/enroll-now" className="e-btn">
+                    Enroll Now
                     </Link>
                   </div>
                   <div className="sidebar__menu d-xl-none">

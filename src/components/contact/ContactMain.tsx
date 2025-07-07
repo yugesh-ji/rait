@@ -3,6 +3,7 @@ import React from "react";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
 import ContactForm from "@/form/contact-form";
 import ContactInfo from "./ContactInfo";
+import GoogleForm from "@/form/googleForm";
 import Image from "next/image";
 import YellowBg from "../../../public/assets/img/shape/yellow-bg.png";
 import ContactShape1 from "../../../public/assets/img/contact/contact-shape-1.png";
@@ -37,7 +38,8 @@ const ContactMain = () => {
                   </p>
                 </div>
                 <div className="contact__form">
-                  <ContactForm />
+                  {/* <ContactForm /> */}
+                  <GoogleForm/>
                 </div>
               </div>
             </div>
