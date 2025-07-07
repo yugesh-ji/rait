@@ -9,8 +9,8 @@ const GoogleForm = () => {
         width="640"
         height="991"
         frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
+        // marginHeight="0"
+        // marginWidth="0"
         title="Google Form"
       >
         Loading…
