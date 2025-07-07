@@ -18,10 +18,13 @@ const HeaderCategory = () => {
               <span>Category</span>
             </Link>
             <ul className="cat-submenu">
-              <li>
+            <li>
                 <Link href="/course-grid">English Learning</Link>
               </li>
               <li>
+                <Link href="/course-grid">Computer Courses</Link>
+              </li>
+              {/* <li>
                 <Link href="/course-grid">Web Development</Link>
               </li>
               <li>
@@ -32,7 +35,7 @@ const HeaderCategory = () => {
               </li>
               <li>
                 <Link href="/course-grid">Video Edition</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
         </ul>

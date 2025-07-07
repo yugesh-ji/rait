@@ -40,7 +40,7 @@ const HeroSectionTwo = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="hero__content hero__content-2 p-relative z-index-1">
                 <h3 className="hero__title hero__title-2">
-                  Govt. Regd. 100% Job Support<br /> 
+                  Govt. Regd.<br /> 100% Job Support<br /> 
                   Gorakhpur No.1 IT Academy  –  <span className="yellow-shape">RAIT
                     <Image
                       src={YellowBg}

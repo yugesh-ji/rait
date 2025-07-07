@@ -58,7 +58,7 @@ const HeaderTwo = () => {
                             </li>
                             <li>
                               <Link href="/course-details">
-                                Web Development
+                              Computer Courses
                               </Link>
                             </li>
                             {/* <li>
