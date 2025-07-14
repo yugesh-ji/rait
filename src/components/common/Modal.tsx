@@ -63,7 +63,7 @@ const Modal = () => {
       <div className="modal-content">
         <button className="close-button" onClick={handleClose}>&times;</button>
         <h2>Get a Free Consultation</h2>
-        <p>Fill out the form below and we'll get back to you.</p>
+        <p>Fill out the form below and we will get back to you.</p>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
