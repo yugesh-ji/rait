@@ -35,7 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Assuming dynamic routes for blog, course, event, and instructor details
   // You would fetch these from a CMS or database
-  const dynamicRoutes = [
+  const dynamicRoutes: MetadataRoute.Sitemap = [
     // Example: fetch blog posts
     // { url: `${baseUrl}/blog/some-post`, lastModified: new Date() },
     // Example: fetch courses
