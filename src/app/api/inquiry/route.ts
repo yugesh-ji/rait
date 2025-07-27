@@ -30,6 +30,16 @@ const writeInquiries = (data: any) => {
   }
 };
 
+export async function GET() {
+  try {
+    const inquiries = readInquiries();
+    return NextResponse.json(inquiries, { status: 200 });
+  } catch (error) {
+    console.error('Failed to retrieve inquiries:', error);
+    return NextResponse.json({ message: 'Error retrieving inquiries.' }, { status: 500 });
+  }
+}
+
 export async function POST(request: Request) {
   try {
     const newInquiry = await request.json();
