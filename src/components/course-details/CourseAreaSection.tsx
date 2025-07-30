@@ -23,7 +23,7 @@ const CourseAreaSection = ({ course }: any) => {
         </div>
         <div className="course__update mr-80 mb-30">
           <h5>Last Update:</h5>
-          <p>July 24, 2023</p>
+          <p>July 24, 2025</p>
         </div>
         <div className="course__rating-2 mb-30">
           <h5>Review:</h5>

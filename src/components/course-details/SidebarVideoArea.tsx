@@ -51,9 +51,9 @@ const SidebarVideoArea: React.FC<{ course: Course }> = ({ course }: any) => {
           <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
             <div className="course__video-price">
               <h5>
-                $74.<span>00</span>{" "}
+              ₹74.<span>00</span>{" "}
               </h5>
-              <h5 className="old-price">$129.00</h5>
+              <h5 className="old-price">₹129.00</h5>
             </div>
             <div className="course__video-discount">
               <span>68% OFF</span>

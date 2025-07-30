@@ -1,177 +1,100 @@
+export const COURSE_CATEGORY = [
+    {
+        id: 1,
+        option: "All Categories"
+    },
+    {
+        id: 2,
+        option: "Programming"
+    },
+    {
+        id: 3,
+        option: "Web Development"
+    },
+    {
+        id: 4,
+        option: "Data Science"
+    },
+    {
+        id: 5,
+        option: "Cloud Computing"
+    },
+    {
+        id: 6,
+        option: "Cybersecurity"
+    },
+    {
+        id: 7,
+        option: "Mobile App Development"
+    },
+    {
+        id: 8,
+        option: "Artificial Intelligence"
+    }
+];
 
-export const ADULTS = [
+export const COURSE_LEVEL = [
     {
-        id:1,
-        option:"ADULTS"
+        id: 1,
+        option: "All Levels"
     },
     {
-        id:2,
-        option:"01 ADULTS"
+        id: 2,
+        option: "Beginner"
     },
     {
-        id:3,
-        option:"02 ADULTS"
+        id: 3,
+        option: "Intermediate"
     },
     {
-        id:4,
-        option:"03 ADULTS"
+        id: 4,
+        option: "Advanced"
     },
     {
-        id:5,
-        option:"04 ADULTS"
-    },
-    {
-        id:6,
-        option:"05 ADULTS"
-    },
-]
+        id: 5,
+        option: "Expert"
+    }
+];
 
-export const CHILDREN = [
+export const COURSE_DURATION = [
     {
-        id:1,
-        option:"CHILDREN"
+        id: 1,
+        option: "Any Duration"
     },
     {
-        id:2,
-        option:"01 CHILDREN"
+        id: 2,
+        option: "0-4 Weeks"
     },
     {
-        id:3,
-        option:"02 CHILDREN"
+        id: 3,
+        option: "4-8 Weeks"
     },
     {
-        id:4,
-        option:"03 CHILDREN"
+        id: 4,
+        option: "8-12 Weeks"
     },
     {
-        id:5,
-        option:"04 CHILDREN"
-    },
-    {
-        id:6,
-        option:"05 CHILDREN"
-    },
-]
-export const ROOM = [
-    {
-        id:1,
-        option:"SINGLE ROOM"
-    },
-    {
-        id:2,
-        option:"DOUBLE ROOM"
-    },
-    {
-        id:3,
-        option:"FAMILY ROOM"
-    },
-    {
-        id:4,
-        option:"DELUX ROOM"
-    },
-    {
-        id:5,
-        option:"LUXURY ROOM"
-    },
-    
-]
-export const ROOMNUM = [
-    {
-        id:1,
-        option:"1"
-    },
-    {
-        id:2,
-        option:"2"
-    },
-    {
-        id:3,
-        option:"3"
-    },
-    {
-        id:4,
-        option:"4"
-    },
-   
-    
-]
-export const ROOMS = [
-    {
-        id:1,
-        option:"1 ROOM"
-    },
-    {
-        id:2,
-        option:"2 ROOM"
-    },
-    {
-        id:3,
-        option:"3 ROOM"
-    },
-    {
-        id:4,
-        option:"4 ROOM"
-    },
-   
-    
-]
-export const LOCATION = [
-    {
-        id:1,
-        option:"ATLANTIS, THE PALM"
-    },
-    {
-        id:2,
-        option:"ATLANTIS, THE PALM "
-    },
-    {
-        id:3,
-        option:"ATLANTIS, THE PALM "
-    },
-   
-    
-]
-export const EXTRASERVICE = [
-    {
-        id:1,
-        option:"Spa & Massage "
-    },
-    {
-        id:2,
-        option:"Resturant Service "
-    },
-    {
-        id:3,
-        option:"Swimming Coach "
-    },
-    {
-        id:4,
-        option:"Cultural Food "
-    },
-   
-    
-]
+        id: 5,
+        option: "12+ Weeks"
+    }
+];
 
-
-export const ROOMTYPE = [
+export const COURSE_LANGUAGE = [
     {
-        id:1,
-        option:"Room Type"
+        id: 1,
+        option: "All Languages"
     },
     {
-        id:2,
-        option:"Luxury Room"
+        id: 2,
+        option: "English"
     },
     {
-        id:2,
-        option:"Family Room"
+        id: 3,
+        option: "Hindi"
     },
     {
-        id:2,
-        option:"Deluxe Room"
-    },
-    {
-        id:2,
-        option:"Double Room"
-    },
+        id: 4,
+        option: "Marathi"
+    }
+];
 ]

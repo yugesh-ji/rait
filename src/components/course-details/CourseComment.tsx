@@ -20,8 +20,8 @@ const CourseComment = () => {
           <div className="course__comment-content">
             <div className="course__comment-wrapper ml-70 fix">
               <div className="course__comment-info float-start">
-                <h4>Rahul Verma</h4>
-                <span>March 15, 2025</span>
+                <h4>Rohan Jain</h4>
+                <span>March 15, 2025 • Web Development Course</span>
               </div>
               <div className="course__comment-rating float-start float-sm-end">
                 <ul>
@@ -37,7 +37,7 @@ const CourseComment = () => {
             </div>
             <div className="course__comment-text ml-70">
               <p>
-                I completed the Advanced Excel & Tally Prime course at RAIT. The trainers are very knowledgeable and supportive. Highly recommended!
+                "Sir's teaching style is very good, I was zero in coding but now I can make websites! The way they explain each concept with real-life examples is superb. Only thing is sometimes internet speed was slow, but overall best experience. 5 stars from my side!"
               </p>
             </div>
           </div>
@@ -57,29 +57,24 @@ const CourseComment = () => {
           <div className="course__comment-content">
             <div className="course__comment-wrapper ml-70 fix">
               <div className="course__comment-info float-start">
-                <h4>Pooja Sharma</h4>
-                <span>April 02, 2025</span>
+                <h4>Aisha Khan</h4>
+                <span>April 02, 2025 • Data Science Course</span>
               </div>
               <div className="course__comment-rating float-start float-sm-end">
                 <ul>
-                  {[...Array(4)].map((_, i) => (
+                  {[...Array(5)].map((_, i) => (
                     <li key={i}>
                       <Link href="#">
                         <i className="fas fa-star"></i>
                       </Link>
                     </li>
                   ))}
-                  <li>
-                    <Link href="#" className="no-rating">
-                      <i className="fas fa-star"></i>
-                    </Link>
-                  </li>
                 </ul>
               </div>
             </div>
             <div className="course__comment-text ml-70">
               <p>
-                The MS Office & Internet course helped me gain confidence in using computers for professional tasks. Thanks to Rashm Academy for the quality training.
+                "Maine pehle data science ka koi experience nahi tha, but yahan ke teachers ne itna achha samjhaya ke ab main confidently projects bana leti hoon. Practical knowledge ke liye bahut acha hai. Just ek suggestion - thoda aur practice material milta to aur acha hota."
               </p>
             </div>
           </div>

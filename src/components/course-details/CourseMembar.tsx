@@ -18,26 +18,26 @@ const CourseMember = () => {
                   alt="image not found"
                 />
                 <div className="course__member-name ml-20">
-                  <h5>Shahnewaz Sakil</h5>
-                  <span>Engineer</span>
+                  <h5>Pawan Sir</h5>
+                  <span>Senior IT Trainer</span>
                 </div>
               </div>
             </div>
             <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
               <div className="course__member-info pl-45">
-                <h5>07</h5>
+                <h5>12</h5>
                 <span>Courses</span>
               </div>
             </div>
             <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
               <div className="course__member-info pl-70">
-                <h5>05</h5>
-                <span>Reviw</span>
+                <h5>48</h5>
+                <span>Reviews</span>
               </div>
             </div>
             <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
               <div className="course__member-info pl-85">
-                <h5>3.00</h5>
+                <h5>5.00</h5>
                 <span>Rating</span>
               </div>
             </div>
@@ -53,8 +53,8 @@ const CourseMember = () => {
                   alt="image not found"
                 />
                 <div className="course__member-name ml-20">
-                  <h5>Lauren Stamps</h5>
-                  <span>Teacher</span>
+                  <h5>Yugesh Sir</h5>
+                  <span>Web Development Expert</span>
                 </div>
               </div>
             </div>
@@ -88,8 +88,8 @@ const CourseMember = () => {
                   alt="image not found"
                 />
                 <div className="course__member-name ml-20">
-                  <h5>Jonquil Von</h5>
-                  <span>Associate</span>
+                  <h5>Manoj Sir</h5>
+                  <span>Data Science Specialist</span>
                 </div>
               </div>
             </div>

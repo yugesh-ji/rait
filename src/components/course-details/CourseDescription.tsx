@@ -11,54 +11,39 @@ const CourseDescription = () => {
       <div className="course__description">
         <h3>Course Overview</h3>
         <p>
-          Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor
-          blimey guvnor in my flat, up the duff Eaton car boot up the kyver
-          pardon you A bit of {`how's`} your father David skive off sloshed,{" "}
-          {`don't`}
-          get shirty with me chip shop vagabond crikey bugger
-          {`Queen's`} English chap. Matie boy nancy boy bite your arm off up the
-          kyver old no biggie fantastic boot, David have it show off show off
-          pick your nose and blow off lost the plot porkies bits and bobs only a
-          quid bugger all mate, absolutely bladdered bamboozled
-          {`it's`} your round {`don't`} get shirty with me down the pub well.
-          Give us a bell bits and bobs Charles he lost his bottle super my lady
-          cras starkers bite your arm off
-          {`Queen's`} English, pardon me horse play Elizabeth a blinding shot
-          chinwag knees up do one David, blag cup of tea Eaton so I said
-          bleeding haggle James Bond cup of char. Gosh William ummm {`I'm`}{" "}
-          telling crikey burke I{`don't`} want no agro A bit of {`how's`} your
-          father bugger all mate off his nut that, what a plonker cuppa owt to
-          do with me nancy boy show off show off pick your nose and blow off
-          spiffing good time lavatory me old mucker, chimney pot what a load of
-          rubbish boot squiffy lost the plot brolly wellies excuse my french.
+          This comprehensive course is designed to provide students with in-depth knowledge and hands-on experience in modern web development. Through a carefully structured curriculum, you'll master both front-end and back-end technologies, learning to build responsive, scalable, and secure web applications. Our expert-led training combines theoretical foundations with practical projects, ensuring you gain real-world skills that are in high demand in today's tech industry.
+        </p>
+        <p>
+          Whether you're a beginner looking to start a career in web development or an experienced developer aiming to upgrade your skills, this course offers valuable insights and practical knowledge. You'll work with the latest tools and frameworks, collaborate on team projects, and build a professional portfolio that showcases your abilities to potential employers.
         </p>
 
         <div className="course__tag-2 mb-35 mt-35">
           <i className="fa-solid fa-tag"></i>
-          <Link href="#">Big data,</Link>
-          <Link href="#">Data analysis,</Link>
-          <Link href="#">Data modeling</Link>
+          <Link href="#">Web Development,</Link>
+          <Link href="#">Full Stack,</Link>
+          <Link href="#">MERN Stack</Link>
         </div>
         <div className="course__description-list mb-45">
-          <h4>What is the Target Audience?</h4>
+          <h4>Who Should Take This Course?</h4>
           <ul>
             <li>
-              {" "}
-              <i className="icon_check"></i> {`Business's`} managers, leaders
+              <i className="icon_check"></i> Aspiring web developers looking to build a strong foundation
             </li>
             <li>
-              {" "}
-              <i className="icon_check"></i> Downloadable lectures, code and
-              design assets for all projects
+              <i className="icon_check"></i> IT professionals seeking to transition into web development
             </li>
             <li>
-              {" "}
-              <i className="icon_check"></i> Anyone who is finding a chance to
-              get the promotion
+              <i className="icon_check"></i> Computer science students wanting practical development experience
+            </li>
+            <li>
+              <i className="icon_check"></i> Entrepreneurs aiming to build their own web applications
+            </li>
+            <li>
+              <i className="icon_check"></i> Freelancers looking to expand their service offerings
             </li>
           </ul>
         </div>
-        <div className="course__instructor mb-45">
+        {/* <div className="course__instructor mb-45">
           <h3>Other Instructors</h3>
           <div className="course__instructor-wrapper d-md-flex align-items-center">
             <div className="course__instructor-item d-flex align-items-center mr-70">
@@ -101,7 +86,7 @@ const CourseDescription = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -9,9 +9,7 @@ const CourseReview = () => {
     <div className="course__review">
       <h3>Reviews</h3>
       <p>
-        Gosh william {`I'm`} telling crikey burke I {`don't`} want no agro A bit
-        of {`how's`} your father bugger all mate off his nut that, what a
-        plonker cuppa owt to do
+        At RAIT Academy, our students share their learning experiences in their own words. Here's what some of our students have to say about their journey with us.
       </p>
 
       <div className="course__review-rating mb-50">
@@ -21,7 +19,7 @@ const CourseReview = () => {
         </div>
       </div>
       <div className="course__comment mb-75">
-        <h3>2 Comments</h3>
+        <h3>Student Testimonials</h3>
         <CourseComment />
       </div>
       <div className="course__form">
