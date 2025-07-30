@@ -97,4 +97,3 @@ export const COURSE_LANGUAGE = [
         option: "Marathi"
     }
 ];
-]
