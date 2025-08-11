@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
+import courses_data from '@/data/courses-data';
 
 const Modal = () => {
   const [showModal, setShowModal] = useState(false);
@@ -85,10 +86,11 @@ const Modal = () => {
             required
           >
             <option value="" disabled>Select a Course</option>
-            <option value="web-development">Web Development</option>
-            <option value="data-science">Data Science</option>
-            <option value="ui-ux-design">UI/UX Design</option>
-            <option value="digital-marketing">Digital Marketing</option>
+            {courses_data.map((course) => (
+              <option key={course.id} value={course.title}>
+                {course.title}
+              </option>
+            ))}
           </select>
           <button type="submit" disabled={isSubmitting}>
             {isSubmitting ? 'Submitting...' : 'Submit'}

@@ -36,7 +36,7 @@ const AboutSection = () => {
                   alt="Rashm Academy - Campus"
                 />
               </div>
-              <div className="about__student ml-270 mt--80">
+{/*               <div className="about__student ml-270 mt--80">
                 <Link href="/course-details">
                   <Image
                     src={studentImgOne}
@@ -62,7 +62,7 @@ const AboutSection = () => {
                 <p>
                   Join over <span>4,000+</span> students building their careers
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 

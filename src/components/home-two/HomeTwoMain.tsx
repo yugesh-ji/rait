@@ -11,6 +11,7 @@ import BlogSection from "./BlogSection";
 import CtaSectionTwo from "./CtaSectionTwo";
 import CounterSection from "../about/CounterSection";
 import AboutSectionTwo from "../about/AboutSection";
+import CourseGridTab from "../Elements/Tabs/CourseGridTab";
 
 const sectionVariants: Variants = {
   hidden: { opacity: 0, y: 50 },
@@ -57,7 +58,10 @@ const HomeTwoMain = () => {
         viewport={{ once: true }}
         variants={sectionVariants}
       >
-        <CourseSectionOne />
+        {/* <CourseSectionOne/> */}
+      <CourseGridTab />
+
+        {/* <CourseArea /> */}
       </motion.div>
       <motion.div
         initial="hidden"
@@ -97,7 +101,7 @@ const HomeTwoMain = () => {
         viewport={{ once: true }}
         variants={sectionVariants}
       >
-        <BlogSection />
+        {/* <BlogSection /> */}
       </motion.div>
       <motion.div
         initial="hidden"

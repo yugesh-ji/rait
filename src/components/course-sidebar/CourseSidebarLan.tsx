@@ -24,9 +24,9 @@ const CourseSidebarLan = () => {
           </li>
           <li>
             <div className="course__sidebar-check mb-10 d-flex align-items-center">
-              <input className="m-check-input" type="checkbox" id="m-russ" />
-              <label className="m-check-label" htmlFor="m-russ">
-                Russian
+              <input className="m-check-input" type="checkbox" id="m-hindi" />
+              <label className="m-check-label" htmlFor="m-hindi">
+                Hindi
               </label>
             </div>
           </li>
