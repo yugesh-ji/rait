@@ -111,7 +111,7 @@ const CourseDetailsMain = ({ id }: idType) => {
                       role="tabpanel"
                       aria-labelledby="curriculum-tab"
                     >
-                      <CourseTabAccordion />
+                      <CourseTabAccordion curriculum={course?.curriculum} />
                     </div>
                     <div
                       className="tab-pane fade"

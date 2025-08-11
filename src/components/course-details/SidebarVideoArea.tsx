@@ -30,7 +30,7 @@ const SidebarVideoArea: React.FC<{ course: Course }> = ({ course }: any) => {
     <>
       <div className="course__sidebar-widget-2 white-bg mb-20">
         <div className="course__video">
-          <div className="course__video-thumb w-img mb-25">
+          {/* <div className="course__video-thumb w-img mb-25">
             <Image
               src={CourseVideoImg}
               style={{ width: "100%", height: "auto" }}
@@ -47,16 +47,16 @@ const SidebarVideoArea: React.FC<{ course: Course }> = ({ course }: any) => {
                 <i className="fas fa-play"></i>{" "}
               </button>
             </div>
-          </div>
+          </div> */}
           <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
             <div className="course__video-price">
               <h5>
-              ₹74.<span>00</span>{" "}
+              ₹FREE<span></span>{" "}
               </h5>
               <h5 className="old-price">₹129.00</h5>
             </div>
             <div className="course__video-discount">
-              <span>68% OFF</span>
+              <span>100% OFF</span>
             </div>
           </div>
           <div className="course__video-content mb-35">
@@ -85,8 +85,7 @@ const SidebarVideoArea: React.FC<{ course: Course }> = ({ course }: any) => {
                 </div>
                 <div className="course__video-info">
                   <h5>
-                    <span>Instructor :</span> Eleanor Fant
-                  </h5>
+                    <span>Instructor :</span> Yugesh sir                </h5>
                 </div>
               </li>
               <li className="d-flex align-items-center">
@@ -171,7 +170,7 @@ const SidebarVideoArea: React.FC<{ course: Course }> = ({ course }: any) => {
               </li>
             </ul>
           </div>
-          <div className="course__payment mb-35">
+          {/* <div className="course__payment mb-35">
             <h3>Payment:</h3>
             <Link href="#">
               <Image
@@ -180,23 +179,23 @@ const SidebarVideoArea: React.FC<{ course: Course }> = ({ course }: any) => {
                 alt="image not found"
               />
             </Link>
-          </div>
-          <div className="course__enroll-btn">
+          </div> */}
+          {/* <div className="course__enroll-btn">
             <button
               onClick={() => handleAddToCart(course)}
               className="e-btn e-btn-7 w-100"
             >
               Add To Cart <i className="fa-regular fa-cart-shopping"></i>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={isOpen}
         videoId={videoId}
         onClose={() => setIsOpen(false)}
-      />
+      /> */}
     </>
   );
 };

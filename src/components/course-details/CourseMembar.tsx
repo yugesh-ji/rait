@@ -8,41 +8,7 @@ const CourseMember = () => {
   return (
     <>
       <div className="course__member mb-45">
-        <div className="course__member-item">
-          <div className="row align-items-center">
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-6">
-              <div className="course__member-thumb d-flex align-items-center">
-                <Image
-                  src={memberImg}
-                  style={{ width: "auto", height: "auto" }}
-                  alt="image not found"
-                />
-                <div className="course__member-name ml-20">
-                  <h5>Pawan Sir</h5>
-                  <span>Senior IT Trainer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
-              <div className="course__member-info pl-45">
-                <h5>12</h5>
-                <span>Courses</span>
-              </div>
-            </div>
-            <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
-              <div className="course__member-info pl-70">
-                <h5>48</h5>
-                <span>Reviews</span>
-              </div>
-            </div>
-            <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
-              <div className="course__member-info pl-85">
-                <h5>5.00</h5>
-                <span>Rating</span>
-              </div>
-            </div>
-          </div>
-        </div>
+       
         <div className="course__member-item">
           <div className="row align-items-center">
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-6">
@@ -78,41 +44,7 @@ const CourseMember = () => {
             </div>
           </div>
         </div>
-        <div className="course__member-item">
-          <div className="row align-items-center">
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-6 ">
-              <div className="course__member-thumb d-flex align-items-center">
-                <Image
-                  src={memberImgThree}
-                  style={{ width: "auto", height: "auto" }}
-                  alt="image not found"
-                />
-                <div className="course__member-name ml-20">
-                  <h5>Manoj Sir</h5>
-                  <span>Data Science Specialist</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
-              <div className="course__member-info pl-45">
-                <h5>09</h5>
-                <span>Courses</span>
-              </div>
-            </div>
-            <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
-              <div className="course__member-info pl-70">
-                <h5>07</h5>
-                <span>Reviw</span>
-              </div>
-            </div>
-            <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-4">
-              <div className="course__member-info pl-85">
-                <h5>4.00</h5>
-                <span>Rating</span>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </>
   );

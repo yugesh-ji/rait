@@ -42,6 +42,21 @@ export interface coursesType {
   desc?: string;
   info?: string;
   videoUrl: string;
+  curriculum?: curriculumModuleType[];
+}
+
+// curriculum type
+export interface curriculumModuleType {
+  moduleId: number;
+  title: string;
+  contents: curriculumContentType[];
+}
+
+export interface curriculumContentType {
+  type: string;
+  title: string;
+  duration: string;
+  additionalInfo?: string;
 }
 //category-filter-Type
 export interface categoryFilterType {

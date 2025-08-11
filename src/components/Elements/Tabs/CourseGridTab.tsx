@@ -29,7 +29,7 @@ const CourseGridTab = () => {
                         <CourseGridIconOne />
                       </button>
                     </li>
-                    <li className="nav-item" role="presentation">
+                    {/* <li className="nav-item" role="presentation">
                       <button
                         className="nav-link list"
                         id="list-tab"
@@ -42,15 +42,15 @@ const CourseGridTab = () => {
                       >
                         <CourseGridIconTwo />
                       </button>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
-                <div className="course__view">
+                {/* <div className="course__view">
                   <h4>Showing 1 - 9 of 84</h4>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            {/* <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
               <div className="course__sort d-flex justify-content-sm-end">
                 <div className="course__sort-inner">
                   <select>
@@ -64,7 +64,7 @@ const CourseGridTab = () => {
                   </select>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row">
@@ -299,7 +299,7 @@ const CourseGridTab = () => {
               className="basic-pagination wow fadeInUp mt-30"
               data-wow-delay=".2s"
             >
-              <ul className="d-flex align-items-center">
+              {/* <ul className="d-flex align-items-center">
                 <li className="prev">
                   <Link href="/course-grid" className="link-btn link-prev">
                     Prev
@@ -329,7 +329,7 @@ const CourseGridTab = () => {
                     <i className="arrow_right"></i>
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
